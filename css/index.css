@@ -1,0 +1,54 @@
+/*  */
+body {
+  background: #fff;
+}
+.fc-toolbar-title {
+  display: none;
+}
+/* CSS style for the table */
+#eventTable {
+  width: 100%; /* Make the table width 100% of its container */
+  border-collapse: collapse; /* Collapse borders between cells */
+}
+
+/* CSS style for table rows */
+#eventTable tr {
+  border-bottom: 1px solid #ccc; /* Add a bottom border to rows */
+}
+
+/* CSS style for table cells */
+#eventTable td {
+  padding: 10px; /* Add padding for spacing within cells */
+  /* text-align: center;  */
+  border-right: 1px solid #ccc; /* Add a right border to cells */
+}
+#eventTable td:first-child {
+  width: 36%; /* Make the first cell take 30% width */
+}
+
+/* CSS style for the second td */
+#eventTable td:nth-child(2) {
+  width: 64%; /* Make the second cell take 70% width */
+}
+
+/* Remove the right border for the last cell in a row */
+#eventTable td:last-child {
+  border-right: none;
+}
+
+.ui-widget-header {
+  color: #fff;
+}
+.fc .fc-toolbar.fc-header-toolbar{
+    align-items: end;
+}
+.searchInput {
+  width: 120px;
+}
+.fc-toolbar-chunk:nth-child(2) {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
